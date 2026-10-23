@@ -1,0 +1,12 @@
+Day 1: 21 Oct 2026
+
+Iteration 1: Identifying Sideways Market Movement
+Three highs are used to create line of resistance which is identifier of choppy market.
+Logic:
+	-each peak should act as starting point
+	-each peak should start a search that will find peaks near a its range
+	-if peak exceeds the range the range peak counter should re start
+	-if peak count reaches >3 it should be a valid resistance
+	-peak should be searched until the resistance is broken.
+	
+
